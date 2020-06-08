@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "920444827613",
+    "firebase_url": "https://sustaintask.firebaseio.com",
+    "project_id": "sustaintask",
+    "storage_bucket": "sustaintask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920444827613:android:753addf70ba53f44002834",
+        "android_client_info": {
+          "package_name": "in.sustaintask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920444827613-aml1b1u00rlm1vludbkia2fl714d0ohb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.sustaintask",
+            "certificate_hash": "cb94d68b86b3e8e9aa565b809ecfae5d7cd72781"
+          }
+        },
+        {
+          "client_id": "920444827613-tvtnnspuj50h33vng2r9qah3mu7i2mi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxvEH3V035n1o2hOr6S-Kfq-FatIqQ50g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920444827613-tvtnnspuj50h33vng2r9qah3mu7i2mi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
