@@ -56,7 +56,7 @@ class MyRepository {
         val data: MutableLiveData<ArrayList<GetTransaction>> = MutableLiveData()
         val transactionList: ArrayList<GetTransaction> = ArrayList()
 
-        db.collection(Constants.transCollection).whereEqualTo("uid", mAuth.currentUser!!.uid).get()
+        db.collection(Constants.transCollection).get()
             .addOnSuccessListener { querySnapShot ->
                 for (item in querySnapShot) {
                     val transaction = item.toObject(Transaction::class.java)
